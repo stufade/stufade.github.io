@@ -1,0 +1,217 @@
+/* Main part */
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-container {
+    padding: 0 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    background-color: #fff;
+}
+
+.card img {
+    display: block;
+}
+
+.content {
+    margin: 0 1rem;
+}
+
+.btn {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: 475;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: solid 1px var(--dark-light-color);
+    transition: background-color 0.5s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--dark-light-color);
+    transform: scale(0.98);
+}
+
+.btn-off {
+    cursor: not-allowed;
+}
+
+.btn-on {
+    cursor: pointer;
+}
+/* Backgrounds */
+
+.bg-light {
+    background-color: var(--light-color);
+}
+
+.bg-black {
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+    margin: 0 2px;
+}
+
+/* Fonts */
+
+.font-small {
+    font-size: 1rem;
+}
+
+.font-s-m {
+    font-size: 1.25rem;
+}
+
+.font-medium {
+    font-size: 1.5rem;
+}
+
+.font-big {
+    font-size: 2.5rem;
+}
+
+.font-huge {
+    font-size: 3.5rem;
+}
+
+/* Width */
+
+.width-50 {
+    width: 50px;
+}
+
+/* Float */
+
+.float-left {
+    float: left;
+}
+
+.float-rigth {
+    float: right;
+}
+
+/* Aligment */
+
+.align-center {
+    text-align: center;
+}
+
+/* Margin */
+
+.my-05 {
+    margin: 0.5rem 0;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+.m-bottom-4 {
+    margin: 0 0 3rem 0;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 1.5rem;
+}
+
+.m-3 {
+    margin: 2rem;
+}
+
+.m-4 {
+    margin: 3rem;
+}
+
+.m-5 {
+    margin: 4rem;
+}
+
+.mx-3 {
+    margin: 0 2rem;
+}
+
+/* Paddin */
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 1.5rem 0;
+}
+
+.py-3 {
+    padding: 2rem 0;
+}
+
+.py-4 {
+    padding: 3rem 0;
+}
+
+.py-5 {
+    padding: 4rem 0;
+}
+
+.p-075 {
+    padding: 0.75rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.5rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 3rem;
+}
+
+.p-5 {
+    padding: 4rem;
+}
+
+.px-2 {
+    padding: 0 1.5rem;
+}
