@@ -138,6 +138,10 @@ ul {
         flex-direction: column;
         
     }
+
+    .grid-main {
+        gap: 0px;
+    }
     
 }
 
