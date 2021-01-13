@@ -26,6 +26,10 @@ ul {
     text-align: center;
 }
 
+.header h1 {
+    margin-top: 0;
+}
+
 /* Showcase */
 .grid-main {
     grid-template-columns: 3fr 2fr;
@@ -71,6 +75,7 @@ ul {
     background-color: rgb(240, 240, 240);
     opacity: 0.7;
     transition: all 1s ease-in-out;
+    cursor: pointer;
 }
 
 .tag:hover {
@@ -82,8 +87,14 @@ ul {
 
 /* Footer */
 
+.git-icon {
+    position: relative;
+    top: 15px;
+}
+
 .footer {
     background-color: var(--dark-color);
+    padding-bottom: 5rem;
 }
 
 .footer-btn {
@@ -111,16 +122,16 @@ ul {
 .created-by {
     margin-bottom: 0;
     color: #ccc;
+    position: relative;
 }
 
 .created-by a{
     color: white;
     text-decoration: none;
-    transition: all 1s;
 }
 
 .created-by a:hover{
-    font-size: 25px;
+    border-bottom: 1px solid var(--light-color);
 }
 
 /* Animations */
