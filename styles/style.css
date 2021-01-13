@@ -123,6 +123,51 @@ ul {
     font-size: 25px;
 }
 
+/* Animations */
+.header {
+    overflow: hidden;
+}
+
+.to-right {
+    position: relative;
+    animation: toRight 2.5s ease-out;
+}
+
+.to-left {
+    position: relative;
+    animation: toLeft 2.5s ease-out;
+}
+
+@keyframes toLeft {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes toRight {
+    0% {
+        right: 100%;
+    }
+
+    100% {
+        right: 0%;
+    }
+}
+
+@keyframes toBottom {
+    0% {
+        bottom: 100%;
+    }
+
+    100% {
+        bottom: 0%;
+    }
+}
+
 /* Media Queries */
 @media screen and (max-width: 1000px) {
     .grid,
@@ -149,6 +194,14 @@ ul {
     
     .main-container {
         padding: 0 25px;
+    }
+
+    .to-right {
+        animation: toRight 1.5s ease-out;
+    }
+    
+    .to-left {
+        animation: toLeft 1.5s ease-out;
     }
 
 }
