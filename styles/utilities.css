@@ -51,6 +51,13 @@
 
 .btn-off {
     cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.btn-off:hover {
+    transform: scale(1);
+    background-color: black;
 }
 
 .btn-on {
