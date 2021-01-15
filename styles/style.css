@@ -28,6 +28,7 @@ ul {
 
 .header h1 {
     margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 /* Showcase */
@@ -142,6 +143,11 @@ ul {
 .to-left {
     position: relative;
     animation: toLeft 2.5s ease-out;
+}
+
+.to-bottom {
+    position: relative;
+    animation: toBottom 1.5s ease-out;
 }
 
 @keyframes toLeft {

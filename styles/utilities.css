@@ -22,7 +22,16 @@
 .card {
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
     background-color: #fff;
+} 
+
+.card-shadow {
+    box-shadow: 0 -4px 25px 0 rgba(0,0,0,0.3), 0 -4px 20px 0 rgba(0,0,0,0.3);
+    transition: transform 1.5s ease;
 }
+
+.card-shadow:hover {
+    transform: scale(1.025);
+}   
 
 .card img {
     display: block;
@@ -90,6 +99,10 @@
     font-size: 1.5rem;
 }
 
+.font-m-b {
+    font-size: 2rem;
+}
+
 .font-big {
     font-size: 2.5rem;
 }
@@ -147,7 +160,7 @@
 }
 
 .m-bottom-4 {
-    margin: 0 0 3rem 0;
+    margin-bottom: 3rem;
 }
 
 .m-1 {
@@ -170,9 +183,26 @@
     margin: 4rem;
 }
 
+.mx-1 {
+    margin: 0 1rem;
+}
+
+.mx-2 {
+    margin: 0 1.5rem;
+}
+
 .mx-3 {
     margin: 0 2rem;
 }
+
+.mx-4 {
+    margin: 0 3rem;
+}
+
+.mx-5 {
+    margin: 0 5rem;
+}
+
 
 /* Paddin */
 .py-1 {
@@ -219,6 +249,22 @@
     padding: 4rem;
 }
 
+.px-1 {
+    padding: 0 1rem;
+}
+
 .px-2 {
     padding: 0 1.5rem;
+}
+
+.px-3 {
+    padding: 0 2rem;
+}
+
+.px-4 {
+    padding: 0 3rem;
+}
+
+.px-5 {
+    padding: 0 4rem;
 }
