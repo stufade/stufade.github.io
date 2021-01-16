@@ -193,31 +193,51 @@ ul {
 @keyframes toInvisible {
     0% {
         opacity:1;
-      }
-      45% {
+        z-index: 2;
+    }
+
+    45% {
       opacity:1;
-      }
-      55% {
+    }
+
+    55% {
       opacity:0;
-      }
-      100% {
+    }
+
+    75% {
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100% {
       opacity:0;
-      }
+      z-index: -1;
+    }
 }
 
 @keyframes toVisible {
     0% {
         opacity:0;
-      }
-      45% {
+        z-index: -1;
+    }
+
+    45% {
       opacity:0;
-      }
-      55% {
+    }
+
+    55% {
       opacity:1;
-      }
-      100% {
+    }
+
+    75% {
+        opacity: 1;
+        z-index: 2;
+    }
+
+    100% {
       opacity:1;
-      }
+      z-index: 2;
+    }
 }
 
 /* Media Queries */
