@@ -150,6 +150,16 @@ ul {
     animation: toBottom 1.5s ease-out;
 }
 
+.to-invisible {
+    opacity: 1;
+    animation:  toVisible 8s infinite both alternate ease-in;
+}
+
+.to-visible {
+    opacity: 0;
+    animation:  toInvisible 8s infinite both alternate ease-out;
+}
+
 @keyframes toLeft {
     0% {
         left: 100%;
@@ -178,6 +188,36 @@ ul {
     100% {
         bottom: 0%;
     }
+}
+
+@keyframes toInvisible {
+    0% {
+        opacity:1;
+      }
+      45% {
+      opacity:1;
+      }
+      55% {
+      opacity:0;
+      }
+      100% {
+      opacity:0;
+      }
+}
+
+@keyframes toVisible {
+    0% {
+        opacity:0;
+      }
+      45% {
+      opacity:0;
+      }
+      55% {
+      opacity:1;
+      }
+      100% {
+      opacity:1;
+      }
 }
 
 /* Media Queries */
